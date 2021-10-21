@@ -3,7 +3,7 @@
    "remote": "github",
     "repository": "Noob-214/Logan_Ysl",
     "target_path": "kernel/xiaomi/msm8953",
-    "branch", "xr"
+    "branch": "xr"
   },
   {
     "remote": "blobs",
@@ -13,8 +13,8 @@
   },
   {
     "remote": "github",
-    "repository": "AOSPK/hardware_xiaomi",
-    "target_path": "hardware/xiaomi",
-    "branch": "twelve"
+    "repository": "StyxProject/device_qcom_sepolicy-legacy-um",
+    "target_path": "device/qcom/sepolicy-legacy-um",
+    "branch": "S"
   }
 ]
