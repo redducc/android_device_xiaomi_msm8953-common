@@ -121,9 +121,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libstdc++.vendor
 
-PRODUCT_PACKAGES += \
-    Snap
-
 # ConsumerIR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service.xiaomi_msm8953
