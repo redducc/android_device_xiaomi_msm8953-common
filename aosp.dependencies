@@ -1,20 +1,14 @@
 [
   {
-   "remote": "github",
-    "repository": "Noob-214/Logan_Ysl",
+    "remote": "github",
+    "repository": "ItsVixano/android_kernel_xiaomi_ysl",
     "target_path": "kernel/xiaomi/msm8953",
-    "branch": "xr"
+    "branch": "los-temp"
   },
   {
     "remote": "blobs",
     "repository": "vendor_xiaomi_msm8953-common",
     "target_path": "vendor/xiaomi/msm8953-common",
     "branch": "twelve"
-  },
-  {
-    "remote": "github",
-    "repository": "StyxProject/device_qcom_sepolicy-legacy-um",
-    "target_path": "device/qcom/sepolicy-legacy-um",
-    "branch": "S"
   }
 ]
