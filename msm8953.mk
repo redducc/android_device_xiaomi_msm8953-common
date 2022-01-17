@@ -113,6 +113,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
+# Bpf
+PRODUCT_PROPERTY_OVERRIDES += \
+ifneq ($(TARGET_KERNEL_VERSION),4.9)
+    ro.kernel.ebpf.supported=true
+else
+    ro.kernel.ebpf.supported=false
+endif
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
