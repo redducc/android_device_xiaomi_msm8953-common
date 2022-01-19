@@ -115,10 +115,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
 # Bpf
-PRODUCT_PROPERTY_OVERRIDES += \
 ifneq ($(TARGET_KERNEL_VERSION),4.9)
+PRODUCT_PROPERTY_OVERRIDES += \
     ro.kernel.ebpf.supported=true
 else
+PRODUCT_PROPERTY_OVERRIDES += \
     ro.kernel.ebpf.supported=false
 endif
 
