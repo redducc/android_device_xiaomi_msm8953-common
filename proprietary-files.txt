@@ -30,44 +30,29 @@ vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
 
-# Audio
-vendor/bin/audioflacapp
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
-vendor/lib/libadm.so
-vendor/lib/libaudcal.so
--vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudioalsa.so
-vendor/lib/libaudioconfigstore.so
-vendor/lib/libaudioparsers.so
-vendor/lib/libdrc.so
-vendor/lib/libqtigef.so
-vendor/lib/libsurround_3mic_proc.so
-vendor/lib/libtinycompress_vendor.so
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libacdbloader.so
-vendor/lib64/libacdbrtac.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
--vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libaudioconfigstore.so
-vendor/lib64/libaudioparsers.so
-vendor/lib64/libqtigef.so
-vendor/lib64/libtinycompress_vendor.so
+# Audio - from T89571AA3-user 11 RKQ1.200928.002 00WW_3_240 release-keys
+vendor/lib/soundfx/libqcbassboost.so|7d11a8f3e4e5a4011f3900cf2077c87e57aac229
+vendor/lib/soundfx/libqcreverb.so|7dccd8c56bae92d4dc291e8c7c814448cb06fdc1
+vendor/lib/soundfx/libqcvirt.so|7d1f23427602be657b2ae3f8bbacc0f2c7073903
+vendor/lib/libacdb-fts.so|679f4d3b189e56b01e0ec5ae2955d19f88b37655
+vendor/lib/libacdbloader.so|f0d844e545e3904b5cf527b460078c198f9d53d9
+vendor/lib/libacdbrtac.so|2fcc92c30d9f3335533453d466f7aee34db5b32e
+vendor/lib/libadiertac.so|1f2d53c0727abd4ccda9da787e92a396993ccd1f
+vendor/lib/libadm.so|a5e6c65b7133440b4550234db4454e4c81627f66
+vendor/lib/libaudcal.so|97776b794a73dc9e28a15e81dee91054b489bd23
+vendor/lib/libaudioalsa.so|58feb2c5cbc4ac6e23ef4896c87785bed8db3c80
+vendor/lib/libdrc.so|303d67b5bfea162ae994d3817de317258035c42a
+vendor/lib64/libacdb-fts.so|a9281c41bc18064dba71db3d9e3516ee25326312
+vendor/lib64/libacdbloader.so|2cc6428af5119faee626d60cd5c743ab50515fab
+vendor/lib64/libacdbrtac.so|bb4e82eb5f2c2177944a0709283341552748648e
+vendor/lib64/libadiertac.so|4729e723ab7c6642fb48e26a801e4c7b480fe481
+vendor/lib64/libaudcal.so|4f7d53d3b4d6a91b9ebf9c0cb5f90a27a837c2b5
+vendor/lib64/libaudioalsa.so|534d4dc07fecea0611273c745721b1ed2015a3a3
 
 # Audio dirac - from mido-user 7.0 NRD90M V11.0.2.0.NCFMIXM release-keys
 vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
 lib/soundfx/libdirac.so:vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 lib/libDiracAPI_SHARED.so:vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
-
-# Audiosphere
-etc/permissions/audiosphere.xml
-framework/audiosphere.jar
-vendor/lib/soundfx/libasphere.so
-vendor/lib64/soundfx/libasphere.so
 
 # ANT+ (vendor)
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
